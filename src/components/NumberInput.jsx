@@ -4,7 +4,7 @@ const NumberInput = (props) => {
   return (
     <div className="w-80 relative mt-2 h-12">
       <input
-        className="rounded-md cursor-pointer bg-very-light-grayish-cyan text-very-dark-cyan h-12 w-80 font-space-mono text-right pr-4"
+        className="rounded-md cursor-pointer bg-very-light-grayish-cyan text-very-dark-cyan h-12 w-80 font-space-mono text-right pr-4 text-xl"
         placeholder="0"
         value={null}
       />
