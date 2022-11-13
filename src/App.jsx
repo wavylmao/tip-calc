@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App flex items-center justify-center h-screen w-screen bg-light-grayish-cyan">
       <div className="absolute text-center">
-        <h2 className="font-space-mono text-2xl tracking-[.30em] text-very-dark-cyan">
+        <h2 className="font-space-mono text-2xl tracking-[.30em] text-dark-grayish-cyan">
           SPLI
           <br />
           TTER

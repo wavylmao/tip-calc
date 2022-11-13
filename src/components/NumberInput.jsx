@@ -2,13 +2,14 @@ import React from "react";
 
 const NumberInput = (props) => {
   return (
-    <div className="w-72 relative mt-1">
+    <div className="w-80 relative mt-2 h-12">
       <input
-        className="cursor-pointer bg-very-light-grayish-cyan text-very-dark-cyan h-9 w-72 font-space-mono text-right pr-2"
+        className="rounded-md cursor-pointer bg-very-light-grayish-cyan text-very-dark-cyan h-12 w-80 font-space-mono text-right pr-4"
         placeholder="0"
+        value={null}
       />
       <img
-        className="text-grayish-cyan absolute top-[25%] left-2"
+        className="text-grayish-cyan absolute top-[35%] left-4 w-2.5"
         src={props.imageSrc}
       />
     </div>
